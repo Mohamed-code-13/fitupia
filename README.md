@@ -48,7 +48,7 @@ Fitupia uses Hive as a local database to securely store user information. Hive i
 
 ## Privacy and Data Security
 
-Your privacy and data security are our top priorities. Fitupia follows strict data privacy and security protocols to ensure your information is protected
+Your privacy and data security are our top priorities. Fitupia follows strict data privacy and security protocols to ensure your information is protected.
 
 ## Thank You for Choosing Fitupia
 
