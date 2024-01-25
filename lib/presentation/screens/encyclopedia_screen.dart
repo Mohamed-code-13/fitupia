@@ -18,6 +18,14 @@ class EncyclopediaScreen extends StatelessWidget {
       'Do I need to warm up before my workouts?',
       'We know it can be tempting to get straight into it, especially if you\'re short on time, but a proper warm-up is really important.'
     ],
+    [
+      'How often should I rest?',
+      'Your rest will depend on your workout schedule. The recommended is 1 or 2 full days of rest in your schedule. This isn\'t only great for giving your body time to recover from your workouts, it also can be a great time for self-care to promote mental health.'
+    ],
+    [
+      'How long does it take to see results?',
+      'You may be able to see results in the first 4-8 weeks. This depends in large part to your nutrition. You can work out as hard as you\'d like. If you do not eat right, you will not get far.'
+    ],
   ];
 
   const EncyclopediaScreen({super.key});

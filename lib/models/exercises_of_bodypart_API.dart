@@ -77,7 +77,7 @@ Future prepareData() async {
       'abdomen'
     ];
     var headers = {
-      "X-RapidAPI-Key": "b881f6ff6cmsha0aa9b600787d60p1dd874jsn0a516986ca32",
+      "X-RapidAPI-Key": "3348e7805dmshb2a9740eb0f0c28p107f5cjsn9c6d05eeb465",
       "X-RapidAPI-Host": "exercisedb.p.rapidapi.com"
     };
     Map<String, dynamic> result = {};
