@@ -1,3 +1,5 @@
+import 'package:first_app/logic/manage_weight_cubit/manage_weight_cubit.dart';
+
 import '../../logic/registration_cubit/registration_cubit.dart';
 import 'welcome_screen.dart';
 import '../size_config/size_config.dart';
@@ -74,10 +76,12 @@ class SettingsScreen extends StatelessWidget {
     var regCubit = BlocProvider.of<RegistrationCubit>(context);
     var imgCubit = BlocProvider.of<ProfileImageCubit>(context);
     var mealCubit = BlocProvider.of<ReadMealCubit>(context);
+    var stateCubit = BlocProvider.of<ManageWeightCubit>(context);
 
     await imgCubit.deleteProfileImage(regCubit.curUser);
     await regCubit.deleteUser();
     await mealCubit.clearMeals();
+    await stateCubit.clearWeights();
 
     nav.pushNamedAndRemoveUntil(
       WelcomeScreen.routeName,

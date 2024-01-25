@@ -41,4 +41,9 @@ class ManageWeightCubit extends Cubit<ManageWeightState> {
     var stateBox = Hive.box<StateItem>(kStateBox);
     allWeights = stateBox.values.toList();
   }
+
+  Future<void> clearWeights() async {
+    var stateBox = Hive.box<StateItem>(kStateBox);
+    await stateBox.clear();
+  }
 }
