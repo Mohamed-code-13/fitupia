@@ -1,4 +1,5 @@
 import 'package:first_app/models/card_content.dart';
+import 'package:first_app/presentation/screens/custom_meal_screen.dart';
 import 'package:first_app/presentation/widgets/notebook_card.dart';
 import 'package:flutter/material.dart';
 
@@ -62,6 +63,10 @@ class _NoteBookScreenState extends State<NoteBookScreen> {
           onPressed: _startSearching,
           icon: const Icon(Icons.search),
         ),
+        IconButton(
+          onPressed: _goToCustomMeal,
+          icon: const Icon(Icons.add),
+        ),
       ],
     );
   }
@@ -79,7 +84,7 @@ class _NoteBookScreenState extends State<NoteBookScreen> {
       controller: _controller,
       decoration: const InputDecoration(
         border: InputBorder.none,
-        hintText: 'Search for meal',
+        hintText: 'Search for category',
         hintStyle: TextStyle(color: Colors.black45, fontSize: 18),
       ),
       cursorColor: Colors.black,
@@ -119,5 +124,9 @@ class _NoteBookScreenState extends State<NoteBookScreen> {
       isSearching = false;
       _controller.clear();
     });
+  }
+
+  void _goToCustomMeal() {
+    Navigator.of(context).pushNamed(CustomMealScreen.routeName);
   }
 }
