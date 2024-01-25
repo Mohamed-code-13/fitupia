@@ -1,7 +1,8 @@
-import 'package:first_app/presentation/screens/stats_screen.dart';
-import 'package:first_app/presentation/widgets/calendar.dart';
 import 'package:flutter/material.dart';
+
 import '../size_config/size_config.dart';
+import '../widgets/calendar.dart';
+import 'stats_screen.dart';
 
 class CalendarScreen extends StatelessWidget {
   static const String routeName = '/calendar_screen';

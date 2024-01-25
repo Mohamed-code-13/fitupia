@@ -1,5 +1,6 @@
-import 'package:first_app/models/card_content.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/card_content.dart';
 import '../size_config/size_config.dart';
 
 class HomeCard extends StatelessWidget {

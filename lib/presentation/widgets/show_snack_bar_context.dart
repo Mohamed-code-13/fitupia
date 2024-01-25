@@ -1,4 +1,4 @@
-import 'package:first_app/presentation/size_config/size_config.dart';
+import '../size_config/size_config.dart';
 import 'package:flutter/material.dart';
 
 void showSnackBarContext(

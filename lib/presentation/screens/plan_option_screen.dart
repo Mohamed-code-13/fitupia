@@ -1,8 +1,8 @@
-import 'package:first_app/models/card_content.dart';
-import 'package:first_app/models/exercises_of_bodypart_API.dart';
-import 'package:first_app/presentation/size_config/size_config.dart';
-import 'package:first_app/presentation/widgets/exercis_of_bodypart_card.dart';
-import 'package:first_app/presentation/themes/appbar.dart';
+import '../../models/card_content.dart';
+import '../../models/exercises_of_bodypart_API.dart';
+import '../size_config/size_config.dart';
+import '../widgets/exercis_of_bodypart_card.dart';
+import '../themes/appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_offline/flutter_offline.dart';
 

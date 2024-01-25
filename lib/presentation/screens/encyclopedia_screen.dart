@@ -1,5 +1,5 @@
-import 'package:first_app/presentation/themes/appbar.dart';
-import 'package:first_app/presentation/widgets/question_widget.dart';
+import '../themes/appbar.dart';
+import '../widgets/question_widget.dart';
 import 'package:flutter/material.dart';
 
 class EncyclopediaScreen extends StatelessWidget {

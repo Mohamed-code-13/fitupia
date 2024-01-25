@@ -1,10 +1,10 @@
 import 'package:animated_custom_dropdown/custom_dropdown.dart';
-import 'package:first_app/logic/manage_weight_cubit/manage_weight_cubit.dart';
-import 'package:first_app/models/state_item.dart';
-import 'package:first_app/presentation/screens/home_screen.dart';
-import 'package:first_app/presentation/size_config/size_config.dart';
-import 'package:first_app/presentation/widgets/custom_button.dart';
-import 'package:first_app/presentation/widgets/custom_indicator.dart';
+import '../../logic/manage_weight_cubit/manage_weight_cubit.dart';
+import '../../models/state_item.dart';
+import 'home_screen.dart';
+import '../size_config/size_config.dart';
+import '../widgets/custom_button.dart';
+import '../widgets/custom_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

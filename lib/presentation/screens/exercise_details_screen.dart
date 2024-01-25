@@ -1,7 +1,7 @@
-import 'package:first_app/presentation/themes/appbar.dart';
 import 'package:flutter/material.dart';
 
 import '../size_config/size_config.dart';
+import '../themes/appbar.dart';
 
 class ExerciseDetailsScreen extends StatelessWidget {
   final String name;

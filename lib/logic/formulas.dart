@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:first_app/models/user_data.dart';
+import '../models/user_data.dart';
 import 'package:intl/intl.dart';
 
 class Formulas {

@@ -1,6 +1,7 @@
-import 'package:first_app/models/meal_model.dart';
-import 'package:first_app/presentation/size_config/size_config.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/meal_model.dart';
+import '../size_config/size_config.dart';
 
 class MealWidget extends StatelessWidget {
   final MealModel mealModel;

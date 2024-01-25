@@ -1,5 +1,5 @@
-import 'package:first_app/presentation/screens/exercises_option_screen.dart';
-import 'package:first_app/presentation/screens/plan_option_screen.dart';
+import 'exercises_option_screen.dart';
+import 'plan_option_screen.dart';
 import 'package:flutter/material.dart';
 
 class WorkoutScreen extends StatefulWidget {

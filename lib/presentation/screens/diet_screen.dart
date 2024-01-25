@@ -1,5 +1,5 @@
-import 'package:first_app/presentation/screens/daily_intakes_screen.dart';
-import 'package:first_app/presentation/widgets/calories_stats.dart';
+import 'daily_intakes_screen.dart';
+import '../widgets/calories_stats.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,5 +1,5 @@
-import 'package:first_app/logic/read_user_cubit/read_user_cubit.dart';
-import 'package:first_app/logic/registration_cubit/registration_cubit.dart';
+import '../../logic/read_user_cubit/read_user_cubit.dart';
+import '../../logic/registration_cubit/registration_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';

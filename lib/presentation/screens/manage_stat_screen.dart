@@ -1,8 +1,8 @@
-import 'package:first_app/logic/manage_weight_cubit/manage_weight_cubit.dart';
-import 'package:first_app/models/state_item.dart';
-import 'package:first_app/presentation/themes/appbar.dart';
-import 'package:first_app/presentation/widgets/custom_button.dart';
-import 'package:first_app/presentation/widgets/label_input_field.dart';
+import '../../logic/manage_weight_cubit/manage_weight_cubit.dart';
+import '../../models/state_item.dart';
+import '../themes/appbar.dart';
+import '../widgets/custom_button.dart';
+import '../widgets/label_input_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

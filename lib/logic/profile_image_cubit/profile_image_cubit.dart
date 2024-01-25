@@ -1,9 +1,10 @@
 import 'dart:typed_data';
 
-import 'package:first_app/models/user_data.dart';
-import 'package:first_app/presentation/helper/helper.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+
+import '../../models/user_data.dart';
+import '../../presentation/helper/helper.dart';
 
 part 'profile_image_state.dart';
 

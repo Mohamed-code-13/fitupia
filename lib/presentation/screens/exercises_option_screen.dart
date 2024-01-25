@@ -1,5 +1,5 @@
-import 'package:first_app/presentation/helper/exercises.dart';
-import 'package:first_app/presentation/widgets/exercise_card.dart';
+import '../helper/exercises.dart';
+import '../widgets/exercise_card.dart';
 import 'package:flutter/material.dart';
 
 class ExercisesScreen extends StatelessWidget {
@@ -17,9 +17,9 @@ class ExercisesScreen extends StatelessWidget {
           ),
           title: Text(
             "Workout",
-              style: TextStyle(
-                color: Color(0xFF455766),
-              ),
+            style: TextStyle(
+              color: Color(0xFF455766),
+            ),
           ),
         ),
         SliverList(
@@ -34,4 +34,3 @@ class ExercisesScreen extends StatelessWidget {
     );
   }
 }
-

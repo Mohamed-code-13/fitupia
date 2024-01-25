@@ -1,6 +1,7 @@
-import 'package:first_app/models/card_content.dart';
-import 'package:first_app/presentation/widgets/home_card.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/card_content.dart';
+import 'home_card.dart';
 
 class CustomListView extends StatelessWidget {
   final List<CardContent> cards;

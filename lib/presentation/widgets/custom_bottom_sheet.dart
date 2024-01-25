@@ -1,10 +1,10 @@
-import 'package:first_app/logic/add_meal_cubit/add_meal_cubit.dart';
-import 'package:first_app/logic/formulas.dart';
-import 'package:first_app/logic/read_meal_cubit/read_meal_cubit.dart';
-import 'package:first_app/logic/read_user_cubit/read_user_cubit.dart';
-import 'package:first_app/presentation/widgets/custom_button.dart';
-import 'package:first_app/presentation/widgets/label_input_field.dart';
-import 'package:first_app/presentation/widgets/show_snack_bar_messenger.dart';
+import '../../logic/add_meal_cubit/add_meal_cubit.dart';
+import '../../logic/formulas.dart';
+import '../../logic/read_meal_cubit/read_meal_cubit.dart';
+import '../../logic/read_user_cubit/read_user_cubit.dart';
+import 'custom_button.dart';
+import 'label_input_field.dart';
+import 'show_snack_bar_messenger.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

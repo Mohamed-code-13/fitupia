@@ -1,6 +1,6 @@
-import 'package:first_app/models/card_content.dart';
-import 'package:first_app/presentation/screens/custom_meal_screen.dart';
-import 'package:first_app/presentation/widgets/notebook_card.dart';
+import '../../models/card_content.dart';
+import 'custom_meal_screen.dart';
+import '../widgets/notebook_card.dart';
 import 'package:flutter/material.dart';
 
 import '../helper/hand_Book_category.dart';

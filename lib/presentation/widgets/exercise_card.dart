@@ -1,8 +1,7 @@
-import 'package:first_app/models/exercises_of_bodypart_API.dart';
 import 'package:flutter/material.dart';
 
 import '../../models/card_content.dart';
-import '../helper/exercise_data.dart';
+import '../../models/exercises_of_bodypart_API.dart';
 import '../screens/exercis_screen.dart';
 import '../size_config/size_config.dart';
 

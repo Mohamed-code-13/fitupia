@@ -1,8 +1,8 @@
-import 'package:first_app/presentation/themes/appbar.dart';
 import 'package:flutter/material.dart';
 
 import '../../models/card_content.dart';
 import '../size_config/size_config.dart';
+import '../themes/appbar.dart';
 
 class ExerciseScreen extends StatelessWidget {
   final CardContent card;

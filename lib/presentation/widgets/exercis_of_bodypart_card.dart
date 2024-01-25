@@ -1,7 +1,8 @@
-import 'package:first_app/models/card_content.dart';
-import 'package:first_app/presentation/screens/exercise_details_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:first_app/presentation/size_config/size_config.dart';
+
+import '../../models/card_content.dart';
+import '../screens/exercise_details_screen.dart';
+import '../size_config/size_config.dart';
 
 class ExerciseOfBodyPartCard extends StatelessWidget {
   final Map<String, dynamic> data;

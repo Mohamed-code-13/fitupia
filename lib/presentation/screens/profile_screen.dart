@@ -1,11 +1,11 @@
 import 'dart:typed_data';
 
-import 'package:first_app/logic/profile_image_cubit/profile_image_cubit.dart';
-import 'package:first_app/logic/registration_cubit/registration_cubit.dart';
-import 'package:first_app/presentation/screens/registration_screen.dart';
-import 'package:first_app/presentation/size_config/size_config.dart';
-import 'package:first_app/presentation/themes/appbar.dart';
-import 'package:first_app/presentation/widgets/custom_button.dart';
+import '../../logic/profile_image_cubit/profile_image_cubit.dart';
+import '../../logic/registration_cubit/registration_cubit.dart';
+import 'registration_screen.dart';
+import '../size_config/size_config.dart';
+import '../themes/appbar.dart';
+import '../widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';

@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:first_app/logic/read_user_cubit/read_user_cubit.dart';
-import 'package:first_app/models/user_data.dart';
+import '../logic/read_user_cubit/read_user_cubit.dart';
+import 'user_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart';

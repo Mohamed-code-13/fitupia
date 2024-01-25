@@ -1,5 +1,6 @@
-import 'package:first_app/models/card_content.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/card_content.dart';
 
 class NoteBookCard extends StatelessWidget {
   final CardContent card;

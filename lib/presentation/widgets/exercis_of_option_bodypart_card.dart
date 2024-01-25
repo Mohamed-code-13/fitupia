@@ -1,6 +1,7 @@
-import 'package:first_app/models/card_content.dart';
-import 'package:first_app/presentation/size_config/size_config.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/card_content.dart';
+import '../size_config/size_config.dart';
 
 class ExercisOfOptionBodyPartCard extends StatelessWidget {
   final CardContent card;
@@ -14,9 +15,8 @@ class ExercisOfOptionBodyPartCard extends StatelessWidget {
         margin: const EdgeInsets.all(7.0),
         height: SizeConfig.screenHeight * 0.15,
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(14),
-          color: const Color(0xFFecf3fa)
-        ),
+            borderRadius: BorderRadius.circular(14),
+            color: const Color(0xFFecf3fa)),
         child: Row(
           children: [
             Container(
@@ -34,9 +34,8 @@ class ExercisOfOptionBodyPartCard extends StatelessWidget {
               ),
             ),
             IconButton(
-              onPressed: (){},
-              icon: const Icon(
-                Icons.swap_horizontal_circle_sharp))
+                onPressed: () {},
+                icon: const Icon(Icons.swap_horizontal_circle_sharp))
           ],
         ),
       ),

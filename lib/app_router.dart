@@ -1,15 +1,14 @@
-import 'package:first_app/presentation/screens/daily_intakes_screen.dart';
-import 'package:first_app/presentation/screens/encyclopedia_screen.dart';
-import 'package:first_app/presentation/screens/manage_stat_screen.dart';
-import 'package:first_app/presentation/screens/meals_screen.dart';
-import 'package:first_app/presentation/screens/profile_screen.dart';
+import 'presentation/screens/daily_intakes_screen.dart';
+import 'presentation/screens/encyclopedia_screen.dart';
+import 'presentation/screens/manage_stat_screen.dart';
+import 'presentation/screens/meals_screen.dart';
+import 'presentation/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'presentation/screens/calendar_screen.dart';
 import 'presentation/screens/custom_meal_screen.dart';
 import 'presentation/screens/diet_screen.dart';
 import 'presentation/screens/dummy_screen.dart';
-import 'presentation/screens/food_screen.dart';
 import 'presentation/screens/home_screen.dart';
 import 'presentation/screens/notebook_screen.dart';
 import 'presentation/screens/registration_screen.dart';
@@ -59,8 +58,6 @@ class AppRouter {
         int toBeDisplayedList = settings.arguments as int;
         return MaterialPageRoute(
             builder: (_) => MealsScreen(toBeDisplayedList));
-      case FoodScreen.routeName:
-        return MaterialPageRoute(builder: (_) => const FoodScreen());
       case NoteBookScreen.routeName:
         return MaterialPageRoute(builder: (_) => const NoteBookScreen());
       case DietScreen.routeName:

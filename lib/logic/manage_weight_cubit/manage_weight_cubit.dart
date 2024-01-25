@@ -1,5 +1,5 @@
-import 'package:first_app/models/state_item.dart';
-import 'package:first_app/presentation/helper/helper.dart';
+import '../../models/state_item.dart';
+import '../../presentation/helper/helper.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/adapters.dart';
 

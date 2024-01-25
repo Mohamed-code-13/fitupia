@@ -1,8 +1,8 @@
-import 'package:first_app/logic/registration_cubit/registration_cubit.dart';
-import 'package:first_app/presentation/screens/welcome_screen.dart';
-import 'package:first_app/presentation/size_config/size_config.dart';
-import 'package:first_app/presentation/themes/appbar.dart';
-import 'package:first_app/presentation/widgets/custom_button.dart';
+import '../../logic/registration_cubit/registration_cubit.dart';
+import 'welcome_screen.dart';
+import '../size_config/size_config.dart';
+import '../themes/appbar.dart';
+import '../widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

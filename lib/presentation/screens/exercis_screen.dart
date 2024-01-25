@@ -1,8 +1,9 @@
-import 'package:first_app/models/card_content.dart';
-import 'package:first_app/presentation/screens/offline_screen.dart';
-import 'package:first_app/presentation/widgets/exercis_of_bodypart_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_offline/flutter_offline.dart';
+
+import '../../models/card_content.dart';
+import '../widgets/exercis_of_bodypart_card.dart';
+import 'offline_screen.dart';
 
 class ExerciseScreen extends StatelessWidget {
   final List<dynamic> data;

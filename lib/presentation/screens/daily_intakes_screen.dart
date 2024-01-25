@@ -1,8 +1,8 @@
-import 'package:first_app/logic/read_meal_cubit/read_meal_cubit.dart';
-import 'package:first_app/models/meal_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../logic/read_meal_cubit/read_meal_cubit.dart';
+import '../../models/meal_model.dart';
 import '../themes/appbar.dart';
 import '../widgets/meal_widget.dart';
 import 'empty_screen.dart';

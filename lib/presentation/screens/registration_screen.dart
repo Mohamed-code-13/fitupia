@@ -1,9 +1,9 @@
 import 'package:animated_custom_dropdown/custom_dropdown.dart';
-import 'package:first_app/logic/read_user_cubit/read_user_cubit.dart';
-import 'package:first_app/presentation/screens/profile_screen.dart';
-import 'package:first_app/presentation/themes/appbar.dart';
-import 'package:first_app/presentation/widgets/custom_date_field.dart';
-import 'package:first_app/presentation/widgets/label_input_field.dart';
+import '../../logic/read_user_cubit/read_user_cubit.dart';
+import 'profile_screen.dart';
+import '../themes/appbar.dart';
+import '../widgets/custom_date_field.dart';
+import '../widgets/label_input_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';

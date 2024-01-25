@@ -1,5 +1,6 @@
-import 'package:first_app/presentation/size_config/size_config.dart';
 import 'package:flutter/material.dart';
+
+import '../size_config/size_config.dart';
 
 class QuestionWidget extends StatelessWidget {
   final String question;

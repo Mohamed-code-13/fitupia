@@ -1,6 +1,6 @@
-import 'package:first_app/models/meal_model.dart';
-import 'package:first_app/presentation/themes/appbar.dart';
-import 'package:first_app/presentation/widgets/label_input_field.dart';
+import '../../models/meal_model.dart';
+import '../themes/appbar.dart';
+import '../widgets/label_input_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

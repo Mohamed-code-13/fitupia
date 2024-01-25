@@ -1,6 +1,7 @@
-import 'package:first_app/models/nutrition_model.dart';
-import 'package:first_app/presentation/widgets/nutrition_widget.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/nutrition_model.dart';
+import 'nutrition_widget.dart';
 
 class AllNutritions extends StatelessWidget {
   final List<NutritionModel> nutritions;

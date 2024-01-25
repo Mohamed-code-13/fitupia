@@ -1,7 +1,7 @@
+import 'package:csv/csv.dart';
 import 'package:flutter/services.dart';
 
 import '../../models/meal_model.dart';
-import 'package:csv/csv.dart';
 
 List<List<MealModel>> meals = [];
 

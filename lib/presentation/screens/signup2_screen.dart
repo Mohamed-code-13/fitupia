@@ -1,7 +1,7 @@
-import 'package:first_app/presentation/size_config/size_config.dart';
-import 'package:first_app/presentation/widgets/custom_button.dart';
-import 'package:first_app/presentation/widgets/custom_indicator.dart';
-import 'package:first_app/presentation/widgets/welcome_message.dart';
+import '../size_config/size_config.dart';
+import '../widgets/custom_button.dart';
+import '../widgets/custom_indicator.dart';
+import '../widgets/welcome_message.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

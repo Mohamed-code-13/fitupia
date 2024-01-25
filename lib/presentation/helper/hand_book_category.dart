@@ -1,5 +1,5 @@
-import 'package:first_app/presentation/screens/meals_screen.dart';
 import '../../models/card_content.dart';
+import '../screens/meals_screen.dart';
 
 List<CardContent> handbookCards = const [
   CardContent(

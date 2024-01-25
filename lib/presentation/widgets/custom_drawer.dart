@@ -1,5 +1,5 @@
-import 'package:first_app/presentation/screens/encyclopedia_screen.dart';
-import 'package:first_app/presentation/screens/profile_screen.dart';
+import '../screens/encyclopedia_screen.dart';
+import '../screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../screens/settings_screen.dart';

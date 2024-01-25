@@ -1,7 +1,7 @@
 import 'package:circular_chart_flutter/circular_chart_flutter.dart';
-import 'package:first_app/models/nutrition_model.dart';
 import 'package:flutter/material.dart';
 
+import '../../models/nutrition_model.dart';
 import '../size_config/size_config.dart';
 
 class NutritionWidget extends StatelessWidget {
