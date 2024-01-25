@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../themes/appbar.dart';
 import '../widgets/meal_widget.dart';
+import 'empty_screen.dart';
 
 class DailyIntakesScreen extends StatelessWidget {
   static const String routeName = '/daily_intake';
@@ -19,7 +20,7 @@ class DailyIntakesScreen extends StatelessWidget {
         child: BlocBuilder<ReadMealCubit, ReadMealState>(
           builder: (context, state) {
             if (state is ReadMealStateEmpty) {
-              return _buildEmptyScreen();
+              return const EmptyScreen();
             } else {
               return _buildMeals(context);
             }

@@ -176,7 +176,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       child: CustomButton(
         title: 'Edit',
         color: Colors.white,
-        backgroundColor: const Color.fromARGB(255, 140, 193, 6),
+        backgroundColor: const Color.fromARGB(255, 55, 95, 225),
         fontSize: 22,
         icon: Icons.edit,
         onPressed: () {
